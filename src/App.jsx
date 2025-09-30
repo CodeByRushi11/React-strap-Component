@@ -1,7 +1,4 @@
-import React from "react";
-import KgButton from "./kgButton";
 import Hello from "./Hello";
-import RanDom from "./RanDom";
 import NavbarComponent from "./Componenet Reactstrap/NavbarComponent";
 import AccordianCompo from "./Componenet Reactstrap/AccordianCompo";
 import AlertCompo from "./Componenet Reactstrap/AlertCompo";
@@ -25,6 +22,7 @@ import ProgressCompo from "./Componenet Reactstrap/ProgressCompo";
 import SpinnerCompo from "./Componenet Reactstrap/SpinnerCompo";
 import TableCompo from "./Componenet Reactstrap/TableCompo";
 import TooltipExampleMulti from "./Componenet Reactstrap/TooltipCompo";
+import RandomNum from "./RandomNum";
 
 const App = () => {
   // Dynamic content
@@ -136,10 +134,9 @@ const App = () => {
       </p>
 
       <Hello />
-      <RanDom />
-      <RanDom />
-      <RanDom />
-      <RanDom />
+      <RandomNum />
+      <RandomNum />
+      <RandomNum />
     </div>
   );
 };
